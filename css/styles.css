@@ -30,10 +30,10 @@
     font-family: 'Raleway-SemiBold';
     src: url('../fonts/Raleway-SemiBold.eot');
     src: url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
-        url('../fonts/Raleway-SemiBold.woff') format('woff'),
-        url('../fonts/Raleway-SemiBold.ttf') format('truetype'),
-        url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+    url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+    url('../fonts/Raleway-SemiBold.woff') format('woff'),
+    url('../fonts/Raleway-SemiBold.ttf') format('truetype'),
+    url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -43,10 +43,10 @@
     font-family: 'Open Sans-Light';
     src: url('../fonts/OpenSans-Light.eot');
     src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/OpenSans-Light.woff2') format('woff2'),
-        url('../fonts/OpenSans-Light.woff') format('woff'),
-        url('../fonts/OpenSans-Light.ttf') format('truetype'),
-        url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff'),
+    url('../fonts/OpenSans-Light.ttf') format('truetype'),
+    url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -56,10 +56,10 @@
     font-family: 'Open Sans-Semibold';
     src: url('../fonts/OpenSans-Semibold.eot');
     src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
-        url('../fonts/OpenSans-Semibold.woff') format('woff'),
-        url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
-        url('../fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Semibold.woff') format('woff'),
+    url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+    url('../fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -206,10 +206,39 @@ section p {
     color: #24282f;
     font-family: 'Open Sans-Light', sans-serif;
     text-decoration: none;
-
     box-sizing:border-box;
 
 }
+#container .soc_icons {
+    text-align: center;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    line-height: 27px;
+    margin-left: 7px;
+    background-color: #dedede;
+    border: 1px solid #dedede;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+#container .soc_icons:hover {
+    background-color: #b5a263;
+    color: white;
+
+}
+
+#container .soc_icons:hover i {
+    color: white;
+}
+
+#container .soc_icons i {
+    font-size: 12px;
+    color: #4b4f56;
+}
+
+
+
 
 .content_block{
     background-color: #f7f7f7;
@@ -249,7 +278,7 @@ section p {
 }
 
 .content_clients h3{
-   color:#c3b588; 
+    color:#c3b588;
     margin-bottom: 15px;
     font-family: 'Open Sans-Semibold', sans-serif;
     text-transform: uppercase;
