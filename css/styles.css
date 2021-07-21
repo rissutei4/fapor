@@ -147,9 +147,9 @@ section p {
 }
 
 #container {
-    max-width: 888px;
+    max-width: 896px;
     margin: auto;
-    padding: 133px 0 25px 0;
+    padding: 33px 0 25px 0;
 }
 
 #container h2 {
@@ -177,7 +177,6 @@ section p {
 .managers {
     margin-left: 45px;
     display: inline-block;
-    margin-bottom: 30px;
 }
 
 .managers h3 {
@@ -197,6 +196,14 @@ section p {
     color: #b5a263;
 }
 
+.manage_block{
+       margin-bottom: 30px;
+}
+.btn{
+    text-align: center;
+    margin: auto;
+    max-width: 205px;
+}
 .button_Manage{
     background: #ffffff;
     padding: 13px 30px;
@@ -206,8 +213,6 @@ section p {
     color: #24282f;
     font-family: 'Open Sans-Light', sans-serif;
     text-decoration: none;
-    box-sizing:border-box;
-
 }
 #container .soc_icons {
     text-align: center;
