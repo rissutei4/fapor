@@ -363,9 +363,11 @@ section p {
 
 footer {
     background-color: #24282f;
+    padding: 22px 0;
+}
+.footer_info {
     display: flex;
     justify-content: space-between;
-    padding: 22px 0;
 }
 
 footer .soc_icons {
@@ -401,6 +403,36 @@ footer p {
     color: #6e7279;
 
 }
+.clientsMainPhoto{
+    max-width: 72px;
+    min-height: 72px;
+    margin: auto;
+    margin-bottom: 31px;
+
+}
+.owl-nav{
+    width:100%;
+    position: absolute;
+    top:35%;
+}
+.owl-nav, .owl-prev{
+    position: absolute;
+    left:0;
+}
+.owl-nav, .owl-next{
+    position: absolute;
+    right:0;
+}
+.owl-nav, .owl-prev:after {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f053";
+}
+.owl-nav, .owl-next:after {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+}
 
 .footer_info{
     background-color: #24282f;
@@ -410,4 +442,3 @@ footer p {
     display: flex;
     justify-content: space-between;
 }
-
